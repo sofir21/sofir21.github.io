@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    
+    
+<head>
+<title>Main Portfolio Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+    <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+
+</head>
+    
+    
+  <body id="main">
+ <div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<ul class="nav">
+  <li><a class="nav" id="active" href="Main.html">Portfolio</a></li>
+    <li><a class="nav" id="active" href="DigitalArt.html">Digital Art</a></li>
+    <li><a class="nav" id="active" href="TraditionalArt.html">Traditional Art</a></li>
+    <li><a class="nav" id="active" href="ConceptArt.html">Concept Art</a></li>
+    <li><a class="nav" id="active" href="Portraits.html">Portraits</a></li>
+  <li><a class="nav" href="About.html">About</a></li>
+  <li><a class="nav" href="Contact.html">Contact</a></li>
+ </ul>
+</div>
+  <span class="sticky" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    
+    
+    
+<header>Sofia Rivas</header>
+    <h1>Portfolio</h1>
+
+
+    <div class="grid-container">
+          <div class="container">
+ <img src = "digitalart/mermaidpaintingthumbnail.png" alt="Digital art thumbnail" width="800" height="500">
+    <a href = "DigitalArt.html"> <div class="overlay">
+    <div class="text">Digital Art</div>
+  </div></a>
+</div>
+    
+     <div class="container">
+<img src = "traditionalart/birdpainting.JPG" alt="Traditional Art thumbail"width="800" height="500">
+  <a href = "TraditionalArt.html"> <div class="overlay">
+    <div class="text">Traditional Art</div>
+  </div> </a>
+</div>
+    
+    <div class="container">
+ <img src = "conceptart/spritesthumbnail.png" alt="Concept art thumbail" width="800" height="500">
+  <a href = "ConceptArt.html"><div class="overlay">
+    <div class="text">Concept Art</div>
+  </div></a>
+</div>
+
+     <div class="container">
+ <img src = "portraits/cavetownthumbnail.png" alt="Portraits  thumbail"width="800" height="500">
+  <a href = "Portraits.html"><div class="overlay">
+    <div class="text">Portraits</div>
+  </div></a>
+</div>
+      
+      </div>
+    
+
+    
+
+  
+
+    
+
+    
+</body>
+</html>

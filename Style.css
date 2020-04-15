@@ -1,0 +1,153 @@
+
+body {
+    background-color: #ffe6e6;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+header{
+    /**font-family: 'Pacifico', cursive;**/
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px; 
+    text-align: center;
+}
+p{
+    text-align: right;
+    font-size: 25px;
+}
+
+
+#main {
+  transition: .5s;
+  padding: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.about{
+   display:block;
+    
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #ff9999;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height:auto;
+  background-color: #ff9999;
+}
+
+
+/** for hovering over image **/
+.container {
+  position: relative;
+  width: 500px;
+}
+/**
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+**/
+
+.overlay {
+  position: absolute;
+    height: 500px;
+    width: 800px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: #ff9999;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+    grid-row: 1/10;
+  grid-template-columns: auto auto ;
+  padding: 250px; 
+    
+    /**display: grid;
+    grid-template-columns: 50px;
+    grid-gap: 20px;
+    grid-auto-rows: 75px;**/
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.padding{
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
